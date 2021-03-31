@@ -1,0 +1,5 @@
+CS/utils
+此文件主要是为了获取 CsAuthorization
+改进版后，cs登录采取CsAuthorization,有效期3个小时
+
+使用策略，在程序运行过程中，每次检查token的过期时间，一旦超过，则重新获取token。
